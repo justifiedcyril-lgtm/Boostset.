@@ -1,0 +1,60 @@
+/* Global styles */
+body{
+  font-family:Arial;
+  margin:0;
+  background:#020617;
+  color:white;
+}
+header, nav{
+  background:#0f172a;
+  padding:15px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 10px;
+}
+.hero{
+  text-align:center;
+  padding:100px 20px;
+  background:linear-gradient(120deg,#4f46e5,#7c3aed);
+}
+.btn{
+  background:white;
+  color:black;
+  padding:10px 20px;
+  text-decoration:none;
+  border-radius:5px;
+}
+.courses{
+  display:flex;
+  gap:20px;
+  padding:40px;
+}
+.card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  width:200px;
+}
+input, textarea{
+  width:250px;
+  padding:10px;
+  margin:10px 0;
+  border-radius:5px;
+  border:none;
+}
+button{
+  padding:10px 20px;
+  background:#7c3aed;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+textarea{
+  height:100px;
+}
